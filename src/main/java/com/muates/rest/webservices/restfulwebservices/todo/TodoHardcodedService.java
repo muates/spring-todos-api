@@ -34,7 +34,7 @@ public class TodoHardcodedService {
         return null;
     }
 
-    private Todo findById(Long id) {
+    public Todo findById(Long id) {
         for(Todo todo:todos){
             if(todo.getId() == id){
                 return todo;
